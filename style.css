@@ -106,3 +106,103 @@ nav ul {
 .features {
   color: #ff900e;
 }
+/* Features you love section */
+.features-you-love-section, .facts-section{
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.features-you-love-heading {
+  font-size: 2rem;
+  border-left: 4px solid #ff900e;
+  padding-left: 15px;
+}
+.features-you-love {
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.features-you-love-info {
+  flex: 1;
+  
+}
+
+.features-you-love-img {
+  flex: 1;
+  max-width: 400px;
+}
+
+.features-you-love-img img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.info h1 {
+  
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.features-you-love-description {
+  padding-top: 10px;
+}
+.features-you-love-btn{
+    height: 100px;
+    width: 180px;
+    position: relative;
+    left: -60px;
+    top: -80px;
+}
+.features-you-love-btn h1{
+    font-size: 2rem;
+}
+.info{
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+/* Facts Section */
+.facts-section{
+    
+    margin-bottom: 30px;
+}
+.facts-images{
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+    
+    
+}
+.facts-icons{
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px;
+    width: 15vw;
+
+   
+    
+}
+.facts-icons h3{
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+.facts-icons p{
+   font-weight: 600;
+    font-size: 1rem; 
+    padding-top: 5px;
+}
+.facts-icons img{
+    padding-bottom: 10px;
+ 
+    
+}
+.some-facts-info{
+   width: 50%;
+}
+.some-facts-info h1{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
